@@ -15,28 +15,28 @@ html, body {
 	height: 100%;
 	display: flex;
 	gap: var(--index);
-	background-image: url(../img/1652503055_25-gamerwall-pro-p-biznes-fon-minimalizm-oboi-krasivo-28.jpg);
+	background-image: url(../img/1652503028_6-gamerwall-pro-p-biznes-fon-minimalizm-oboi-krasivo-7.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .slider {
-	transform: rotate(12.5deg);
 	overflow: visible;
 }
 .slider:nth-child(odd) {
-	transform: rotate(192.5deg);
+	transform: rotate(180deg);
 }
 .slider .slider__wrapper {
 	transition: var(--transition)!important;
 	will-change: transform;
 }
 .slider__item {
-	width: 21vw;
-	margin-bottom: calc(var(--index) * 2.6);
+	width: 45vw;
+	margin-bottom: calc(var(--index) * 3.6);
 	cursor: pointer;
 	transition: transform var(--transition);
 	will-change: transform;
 	box-shadow: rgb(0 0 0 / .15) 0 0 30px 10px;
+	border-radius: 8px;
 }
 .slider__item:hover {
 	transform: scale(1.05);
