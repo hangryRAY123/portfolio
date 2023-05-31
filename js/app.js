@@ -5,7 +5,7 @@ document.querySelectorAll('.slider').forEach((n, i) => {
 		direction: 'vertical',
 		mousewheel: true,
 		slidesPerView: 1,
-		slidesOffsetBefore: -125
+		slidesOffsetBefore: -250
 	})
 })
 bindSwipers(slider1, slider2)
