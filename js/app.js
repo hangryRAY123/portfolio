@@ -4,7 +4,7 @@ document.querySelectorAll('.slider').forEach((n, i) => {
     // centeredSlides: true,
     direction: 'vertical',
     mousewheel: true,
-    slidesPerView: 1,
+    slidesPerView: 2.5,
   });
 });
 bindSwipers(slider1, slider2);
